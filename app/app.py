@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return "CI/CD Project Running Successfully!"
+    return "CI/CD Project Running Successfully! and the devops pipeline is working"
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0')
