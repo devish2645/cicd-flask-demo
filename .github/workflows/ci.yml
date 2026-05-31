@@ -51,7 +51,8 @@ jobs:
         script: |
           cd ~/cicd-flask-demo/app
 
-          git pull origin main
+          git fetch origin
+          git reset --hard origin/main
 
           sudo docker stop cicd-demo || true
           sudo docker rm cicd-demo || true
