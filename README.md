@@ -127,6 +127,38 @@ The GitHub Actions pipeline performs the following steps:
 7. Rebuild Docker container
 8. Restart application automatically
 
+## Screenshots
+
+### Application Running on AWS EC2
+
+The Flask application deployed on AWS EC2 and accessible through the public IP.
+
+![Application Running](screenshots/application-running.png)
+
+---
+
+### GitHub Actions CI/CD Pipeline
+
+Successful workflow execution showing automated build and deployment stages.
+
+![GitHub Actions](screenshots/github-actions.png)
+
+---
+
+### AWS EC2 Instance
+
+AWS EC2 instance hosting the application.
+
+![AWS EC2](screenshots/ec2-instance.png)
+
+---
+
+### Docker Container Running
+
+Docker container running the Flask application on the EC2 server.
+
+![Docker Container](screenshots/docker-ps.png)
+
 ## Learning Outcomes
 
 * Linux server administration
